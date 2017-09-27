@@ -7,8 +7,10 @@ This repository holds the [TypeScript] source code and distributable bundle of *
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![Greenkeeper badge](https://badges.greenkeeper.io/azure-seed/azure-functions-typescript.svg)](https://greenkeeper.io/)
 
-**`azure-seed/azure-functions-typescript`** is following the common patterns and best practices in file and application
-organization, using the following features:
+> Please support this project by simply putting a Github star. Share this library with friends on Twitter and everywhere else you can.
+
+**`azure-seed/azure-functions-typescript`** is following the common patterns and best practices in backend development on
+Azure Functions with TypeScript, using the following features:
 
 - [x] Ready-to-go build system using [Webpack] to work with [TypeScript].
 - [x] Managing the type definitions using [@types].
