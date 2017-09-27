@@ -1,0 +1,20 @@
+{
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "route": "some-function",
+      "methods": [
+        "get"
+      ],
+      "authLevel": "function",
+      "direction": "in",
+      "name": "req"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
