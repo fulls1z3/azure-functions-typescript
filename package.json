@@ -1,7 +1,7 @@
 {
   "name": "@azure-seed/azure-functions-typescript",
   "version": "1.0.0",
-  "description": "Contracts tools and APIs for data exchange",
+  "description": "Seed project for backend development on Azure Functions with TypeScript",
   "repository": {
     "type": "git",
     "url": "https://github.com/azure-seed/azure-functions-typescript.git"
