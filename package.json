@@ -34,7 +34,7 @@
     "rimraf": "~2.6.1",
     "webpack": "~3.6.0",
     "awesome-typescript-loader": "~3.2.3",
-    "copy-webpack-plugin": "~4.0.1",
+    "copy-webpack-plugin": "~4.1.0",
     "jest": "~21.2.0",
     "jest-junit-reporter": "~1.1.0",
     "ts-jest": "~21.0.1",
