@@ -2,7 +2,7 @@
   "bindings": [
     {
       "type": "httpTrigger",
-      "route": "some-function",
+      "route": "some-function/{id?}",
       "methods": [
         "get"
       ],

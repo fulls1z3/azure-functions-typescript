@@ -2,11 +2,11 @@
 # yarn lockfile v1
 
 
-"@types/jest@~21.1.0":
+"@types/jest@~21.1.1":
   version "21.1.1"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-21.1.1.tgz#70008ecce439774a45c7d0b543d879ec58a1b332"
 
-"@types/node@~8.0.30":
+"@types/node@~8.0.31":
   version "8.0.31"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.31.tgz#d9af61093cf4bfc9f066ca34de0175012cfb0ce9"
 
@@ -248,9 +248,9 @@ aws4@^1.2.1, aws4@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.6.0.tgz#83ef5ca860b2b32e4a0deedee8c771b9db57471e"
 
-azure-functions-ts-essentials@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/azure-functions-ts-essentials/-/azure-functions-ts-essentials-1.0.0.tgz#9befe22db1e8e9c9b6c926162aeec8dbc5dff68a"
+azure-functions-ts-essentials@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/azure-functions-ts-essentials/-/azure-functions-ts-essentials-1.1.1.tgz#c7bc40ac3572461775582a19bda6f64bb77e6a5f"
 
 babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
   version "6.26.0"
@@ -942,7 +942,7 @@ copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
 
-copy-webpack-plugin@4.1.0:
+copy-webpack-plugin@~4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/copy-webpack-plugin/-/copy-webpack-plugin-4.1.0.tgz#292a040318fe8ae3b1d7996ef05dfb483eb0b647"
   dependencies:
@@ -2484,7 +2484,7 @@ jest-validate@^21.2.1:
     leven "^2.1.0"
     pretty-format "^21.2.1"
 
-jest@~21.2.0:
+jest@~21.2.1:
   version "21.2.1"
   resolved "https://registry.yarnpkg.com/jest/-/jest-21.2.1.tgz#c964e0b47383768a1438e3ccf3c3d470327604e1"
   dependencies:
@@ -3534,7 +3534,7 @@ right-align@^0.1.1:
   dependencies:
     align-text "^0.1.1"
 
-rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1, rimraf@~2.6.1:
+rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1, rimraf@~2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
   dependencies:
@@ -4073,7 +4073,7 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typescript@~2.5.2:
+typescript@~2.5.3:
   version "2.5.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.5.3.tgz#df3dcdc38f3beb800d4bc322646b04a3f6ca7f0d"
 
