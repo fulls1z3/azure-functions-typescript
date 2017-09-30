@@ -70,7 +70,7 @@ describe('@azure-seed/azure-functions-typescript', () => {
         method: HttpMethod.Post,
         params: {},
         query: {},
-        body: TEST_REQUEST_BODY
+        body: JSON.stringify(TEST_REQUEST_BODY)
       };
 
       run(mockContext, mockRequest);
@@ -98,7 +98,7 @@ describe('@azure-seed/azure-functions-typescript', () => {
           id: TEST_ID
         },
         query: {},
-        body: TEST_REQUEST_BODY
+        body: JSON.stringify(TEST_REQUEST_BODY)
       };
 
       run(mockContext, mockRequest);
@@ -123,7 +123,7 @@ describe('@azure-seed/azure-functions-typescript', () => {
           id: TEST_ID
         },
         query: {},
-        body: TEST_REQUEST_BODY
+        body: JSON.stringify(TEST_REQUEST_BODY)
       };
 
       run(mockContext, mockRequest);
