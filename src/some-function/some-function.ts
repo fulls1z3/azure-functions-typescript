@@ -38,7 +38,7 @@ const insertOne = (req: HttpRequest) => {
     body: {
       id: TEST_ID,
       object: OBJECT_NAME,
-      ...req.body
+      ...JSON.parse(req.body || '{}')
     }
   };
 };
@@ -61,7 +61,7 @@ const updateOne = (req: HttpRequest, id: any) => {
     body: {
       id,
       object: OBJECT_NAME,
-      ...req.body
+      ...JSON.parse(req.body || '{}')
     }
   };
 };
