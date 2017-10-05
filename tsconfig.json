@@ -5,10 +5,11 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "strictNullChecks": true
+    "suppressImplicitAnyIndexErrors": true
   },
+  "include": [
+    "src/**/*.ts"
+  ],
   "awesomeTypescriptLoaderOptions": {
     "usePrecompiledFiles": true,
     "useWebpackText": true
