@@ -70,7 +70,7 @@ You don't want to duplicate effort.
     ```shell
     git push origin my-fix-branch
     ```
-* In GitHub, send a pull request to `backend:master`.
+* In GitHub, send a pull request to `azure-functions-typescript:master`.
 * If we suggest changes then:
   * Make the required updates.
   * Re-run the test suites to ensure tests are still passing.
