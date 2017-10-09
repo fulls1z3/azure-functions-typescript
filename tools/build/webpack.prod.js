@@ -1,4 +1,5 @@
 const $ = require('./helpers');
+const uglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const copyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
@@ -21,6 +22,11 @@ module.exports = {
     ]
   },
   plugins: [
+    new uglifyJSPlugin({
+      uglifyOptions: {
+        ecma: 6
+      }
+    }),
     new copyWebpackPlugin([
       {
         from: 'src/host.json',
