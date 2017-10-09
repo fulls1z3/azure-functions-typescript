@@ -1,4 +1,4 @@
-{
+  {
   "name": "@azure-seed/azure-functions-typescript",
   "version": "1.1.1",
   "description": "Seed project for backend development on Azure Functions with TypeScript",
@@ -33,7 +33,7 @@
     "release": "standard-version"
   },
   "dependencies": {
-    "azure-functions-ts-essentials": "1.1.1"
+    "azure-functions-ts-essentials": "1.2.0"
   },
   "devDependencies": {
     "@types/jest": "~21.1.2",
