@@ -11,7 +11,6 @@ describe('@azure-seed/azure-functions-typescript', () => {
           expect(response.status).toEqual(HttpStatusCode.OK);
           expect(response.body).toHaveProperty('object');
           expect(response.body).toHaveProperty('data');
-          expect(response.body).toHaveProperty('url');
           expect(response.body).toHaveProperty('hasMore');
           expect(response.body).toHaveProperty('totalCount');
         }

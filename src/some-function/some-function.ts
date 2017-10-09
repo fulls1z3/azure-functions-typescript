@@ -25,7 +25,6 @@ const getMany = (req: HttpRequest) => {
           ...TEST_REQUEST_BODY
         }
       ],
-      url: '/some-function',
       hasMore: false,
       totalCount: 1
     }
