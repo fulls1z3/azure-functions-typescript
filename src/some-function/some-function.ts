@@ -34,23 +34,11 @@ const getMany = (req: HttpRequest) => {
 
 const insertOne = (req: HttpRequest) => {
   return {
-    status: HttpStatusCode.OK,
+    status: HttpStatusCode.Created,
     body: {
       id: TEST_ID,
       object: OBJECT_NAME,
-      ...JSON.parse(req.body || '{}')
-    }
-  };
-};
-
-const patchOne = (req: HttpRequest, id: any) => {
-  return {
-    status: HttpStatusCode.MethodNotAllowed,
-    body: {
-      error: {
-        type: 'not_supported',
-        message: 'PATCH operations are not supported.'
-      }
+      ...req.body
     }
   };
 };
@@ -61,7 +49,7 @@ const updateOne = (req: HttpRequest, id: any) => {
     body: {
       id,
       object: OBJECT_NAME,
-      ...JSON.parse(req.body || '{}')
+      ...req.body
     }
   };
 };
@@ -90,7 +78,9 @@ export const TEST_REQUEST_BODY: { name: string } = {
  */
 export function run(context: Context, req: HttpRequest): any {
   let res: HttpResponse;
-  const id = req.params.id;
+  const id = req.params
+    ? req.params.id
+    : undefined;
 
   switch (req.method) {
     case HttpMethod.Get:
@@ -102,9 +92,6 @@ export function run(context: Context, req: HttpRequest): any {
       res = insertOne(req);
       break;
     case HttpMethod.Patch:
-      res = patchOne(req, id);
-      break;
-    case HttpMethod.Put:
       res = updateOne(req, id);
       break;
     case HttpMethod.Delete:
