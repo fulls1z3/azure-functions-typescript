@@ -14,7 +14,7 @@ This repository holds the [TypeScript] source code and distributable bundle of *
 
 - [x] Ready-to-go build system using [Webpack] to work with [TypeScript].
 - [x] Managing the type definitions using [@types].
-- [ ] Minifying the production builds using `harmony` branch of [UglifyJs2].
+- [x] Minifying the production builds using [UglifyJS Webpack Plugin].
 - [x] Unit tests with **[Jest]**, including code coverage.
 - [x] Seamless integration with [CircleCI] continuous integration and delivery platform.
 - [x] Automatic deployment to [Azure Functions].
@@ -145,7 +145,7 @@ Copyright (c) 2017 [Burak Tasci]
 [TypeScript]: http://www.typescriptlang.org
 [Webpack]: http://webpack.github.io
 [@types]: https://www.npmjs.com/~types
-[UglifyJs2]: https://github.com/mishoo/UglifyJS2/tree/harmony
+[UglifyJS Webpack Plugin]: https://github.com/webpack-contrib/uglifyjs-webpack-plugin
 [Jest]: https://facebook.github.io/jest
 [CircleCI]: https://circleci.com
 [Azure Functions]: https://azure.microsoft.com/en-us/services/functions
