@@ -33,7 +33,7 @@ You can find the **project documentation** [here](https://medium.com/burak-tasci
 - [License](#license)
 
 ## <a name="prerequisites"></a> Prerequisites
-Please ensure that you are using **`Typescript v2.3.4`** or higher.
+Please ensure that you are using **`Typescript v2.6.2`** or higher.
 
 ## <a name="getting-started"> Getting started
 ### <a name="installation"> Installation
