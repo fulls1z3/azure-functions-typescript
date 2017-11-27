@@ -50,7 +50,7 @@
     "standard-version": "~4.2.0",
     "tslint": "~5.7.0",
     "backend-tslint-rules": "1.0.0",
-    "typescript": "~2.5.3"
+    "typescript": "~2.6.1"
   },
   "jest": {
     "transform": {
