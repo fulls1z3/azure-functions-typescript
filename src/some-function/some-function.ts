@@ -70,10 +70,6 @@ export const TEST_REQUEST_BODY: { name: string } = {
 
 /**
  * Routes the request to the default controller using the relevant method.
- *
- * @param {Context} context
- * @param {HttpRequest} req
- * @returns {any}
  */
 export function run(context: Context, req: HttpRequest): any {
   let res: HttpResponse;
