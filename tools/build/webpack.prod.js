@@ -21,6 +21,13 @@ module.exports = {
       }
     ]
   },
+  resolve: {
+    extensions: ['.ts', '.js', '.json'],
+    modules: [
+      'node_modules',
+      'src'
+    ]
+  },
   plugins: [
     new uglifyJSPlugin({
       uglifyOptions: {
