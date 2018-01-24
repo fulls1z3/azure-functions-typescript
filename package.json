@@ -27,7 +27,7 @@
     "build:dev": "npm run clean && webpack --config ./tools/build/webpack.prod.js && cp-cli src/local.settings.json dist/local.settings.json",
     "ci:before": "greenkeeper-lockfile-update",
     "ci:after": "greenkeeper-lockfile-upload",
-    "lint": "tslint -p ./tslint.json --force",
+    "lint": "tslint -p ./tsconfig.json --force",
     "test": "jest --coverage --colors",
     "test:ci": "jest --ci --coverage --colors",
     "release": "standard-version"
