@@ -137,10 +137,13 @@ If you want to file a bug, contribute some code, or improve documentation, pleas
 - [Coding rules](CONTRIBUTING.md#rules)
 - [Change log](CHANGELOG.md)
 
+#### Thanks to
+- [JetBrains], for their support to this open source project with free [WebStorm] licenses.
+
 ## <a name="license"></a> License
 The MIT License (MIT)
 
-Copyright (c) 2017 [Burak Tasci]
+Copyright (c) 2018 [Burak Tasci]
 
 [TypeScript]: http://www.typescriptlang.org
 [Webpack]: http://webpack.github.io
@@ -151,4 +154,6 @@ Copyright (c) 2017 [Burak Tasci]
 [Azure Functions]: https://azure.microsoft.com/en-us/services/functions
 [backend-tslint-rules]: https://github.com/fulls1z3/backend-tslint-rules
 [TSLint]: https://github.com/palantir/tslint 
+[JetBrains]: https://www.jetbrains.com/community/opensource
+[WebStorm]:   https://www.jetbrains.com/webstorm
 [Burak Tasci]: https://github.com/fulls1z3
