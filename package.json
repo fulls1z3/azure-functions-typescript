@@ -49,7 +49,7 @@
     "ts-jest": "~21.2.4",
     "standard-version": "~4.2.0",
     "tslint": "~5.8.0",
-    "backend-tslint-rules": "1.1.0",
+    "backend-tslint-rules": "1.2.0",
     "typescript": "~2.6.2"
   },
   "jest": {
