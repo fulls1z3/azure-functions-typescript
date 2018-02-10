@@ -40,7 +40,7 @@
     "@types/node": "~9.4.0",
     "rimraf": "~2.6.2",
     "cp-cli": "~1.1.0",
-    "webpack": "~3.10.0",
+    "webpack": "~3.11.0",
     "awesome-typescript-loader": "~3.4.1",
     "uglifyjs-webpack-plugin": "~1.1.6",
     "copy-webpack-plugin": "~4.3.1",
