@@ -1,5 +1,5 @@
 import { Context, HttpMethod, HttpRequest, HttpStatusCode } from 'azure-functions-ts-essentials';
-import { run, TEST_ID, TEST_REQUEST_BODY } from './some-function';
+import { run, TEST_ID, TEST_REQUEST_BODY } from './index';
 
 describe('@azure-seed/azure-functions-typescript', () => {
   describe('GET /api/v0/some-function', () => {
