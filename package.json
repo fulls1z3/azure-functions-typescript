@@ -23,8 +23,8 @@
   "homepage": "https://github.com/azure-seed/azure-functions-typescript#readme",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "npm run clean && webpack --config ./tools/build/webpack.prod.js",
-    "build:dev": "npm run clean && webpack --config ./tools/build/webpack.prod.js && cp-cli src/local.settings.json dist/local.settings.json",
+    "build": "npm run clean && parallel-webpack --config ./tools/build/webpack.prod.js",
+    "build:dev": "npm run clean && parallel-webpack --config ./tools/build/webpack.prod.js && cp-cli src/local.settings.json dist/local.settings.json",
     "ci:before": "greenkeeper-lockfile-update",
     "ci:after": "greenkeeper-lockfile-upload",
     "lint": "tslint -p ./tsconfig.json --force",
@@ -38,19 +38,20 @@
   "devDependencies": {
     "@types/jest": "~22.1.0",
     "@types/node": "~9.4.0",
-    "rimraf": "~2.6.2",
-    "cp-cli": "~1.1.0",
-    "webpack": "~3.10.0",
     "awesome-typescript-loader": "~3.4.1",
-    "uglifyjs-webpack-plugin": "~1.1.6",
+    "backend-tslint-rules": "1.2.0",
     "copy-webpack-plugin": "~4.3.1",
+    "cp-cli": "~1.1.0",
     "jest": "~22.1.4",
     "jest-junit-reporter": "~1.1.0",
-    "ts-jest": "~22.0.1",
+    "parallel-webpack": "^2.3.0",
+    "rimraf": "~2.6.2",
     "standard-version": "~4.3.0",
+    "ts-jest": "~22.0.1",
     "tslint": "~5.9.1",
-    "backend-tslint-rules": "1.2.0",
-    "typescript": "~2.6.2"
+    "typescript": "~2.6.2",
+    "uglifyjs-webpack-plugin": "~1.1.6",
+    "webpack": "~3.10.0"
   },
   "jest": {
     "transform": {
