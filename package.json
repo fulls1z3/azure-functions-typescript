@@ -46,7 +46,7 @@
     "copy-webpack-plugin": "~4.5.1",
     "jest": "~22.4.3",
     "jest-junit-reporter": "~1.1.0",
-    "ts-jest": "~22.4.6",
+    "ts-jest": "~23.1.4",
     "standard-version": "~4.3.0",
     "tslint": "~5.10.0",
     "backend-tslint-rules": "1.3.0",
