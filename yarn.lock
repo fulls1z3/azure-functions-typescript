@@ -500,7 +500,6 @@ babylon@^6.18.0:
 backend-tslint-rules@1.12.1:
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/backend-tslint-rules/-/backend-tslint-rules-1.12.1.tgz#0a7e271a392834bd1ea1a777b22eb2e660866752"
-  integrity sha512-/dE0lQbBVZ+5dJE+x6miudGZi9yGM2uwHFm3h8B8jkOFznTIGBheV64iPeLD7ST8nfa3T4fESXcWPaUNdma6bg==
 
 balanced-match@^1.0.0:
   version "1.0.0"
