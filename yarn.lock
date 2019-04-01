@@ -497,9 +497,10 @@ babylon@^6.18.0:
   version "6.18.0"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
 
-backend-tslint-rules@1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/backend-tslint-rules/-/backend-tslint-rules-1.3.0.tgz#f003b7f0d4d62cdc7deea0d63886fc793fd69c3a"
+backend-tslint-rules@1.14.0:
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/backend-tslint-rules/-/backend-tslint-rules-1.14.0.tgz#072b9dbc59fcf3487421b298e333b74c47392556"
+  integrity sha512-rqaiJUUSlfKvV+ZKky3ZmSCv21X3ANg0pz/AyBoGrexfreTtC02L19bNkBA6RXdemB1fl2K5IdOq6kehuhkoig==
 
 balanced-match@^1.0.0:
   version "1.0.0"
