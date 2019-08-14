@@ -38,7 +38,7 @@
   "devDependencies": {
     "@types/jest": "~22.2.3",
     "@types/node": "~10.0.9",
-    "rimraf": "~2.6.2",
+    "rimraf": "~2.7.1",
     "cp-cli": "~1.1.2",
     "webpack": "~3.12.0",
     "awesome-typescript-loader": "~3.5.0",
